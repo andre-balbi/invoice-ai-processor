@@ -166,12 +166,12 @@ flowchart TD
     N --> O["✅ get_invoice_summary()<br/>Input: ProcessedInvoice<br/>Output: {order_id, restaurant,<br/>total, items_count}"]
     
     %% Styling
-    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef processing fill:#fff3e0,stroke:#e65100,stroke-width:2px
-    classDef ai fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    classDef models fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    classDef data fill:#fff8e1,stroke:#ff8f00,stroke-width:2px
-    classDef output fill:#ffebee,stroke:#c62828,stroke-width:2px
+    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2p,color:#000
+    classDef processing fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000
+    classDef ai fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef models fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000
+    classDef data fill:#fff8e1,stroke:#ff8f00,stroke-width:2px,color:#000
+    classDef output fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#000
     
     class A input
     class B,M,N processing
