@@ -1,0 +1,12 @@
+[project]
+name = "ws-prompt-rag-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "load-dotenv>=0.1.0",
+    "pdfplumber>=0.11.7",
+    "pydantic>=2.11.7",
+    "pydantic-ai>=0.4.9",
+]

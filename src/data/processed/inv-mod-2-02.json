@@ -1,0 +1,65 @@
+{
+  "schema_fields": [
+    "status do pedido: Pedido entregue",
+    "ID do pedido: b8e2-4d9c",
+    "data/hora: 25 de julho de 2025 às 18:12",
+    "restaurante: Hanami Temakeria",
+    "endereço: Perdizes, São Paulo - SP",
+    "avaliações: ★ 4.7 (1458 avaliações)",
+    "itens: Combo Especial do Chef, R$ 98,00, 1x; Temaki de Atum, R$ 84,00, 3x; Hot Roll California, R$ 39,00, 1x; Refrigerante, R$ 14,00, 2x",
+    "entregador: Sakura",
+    "tempo: 16 min",
+    "distância: 3,2 km",
+    "velocidade: 30 km/h",
+    "altitude: 810 m",
+    "valores monetários: subtotal R$ 235,00; taxa de entrega R$ 7,50; taxa de serviço R$ 11,75; desconto fidelidade -R$ 20,00; gorjeta R$ 25,00; total R$ 259,25"
+  ],
+  "data": {
+    "order_status": "concluido",
+    "order_id": "b8e2-4d9c",
+    "date_time": "2025-07-25T18:12:00",
+    "restaurant": {
+      "name": "Hanami Temakeria",
+      "address": "Perdizes, São Paulo - SP",
+      "total_reviews": 1458,
+      "average_rating": "4.7"
+    },
+    "items": [
+      {
+        "name": "Combo Especial do Chef",
+        "price": "98",
+        "quantity": 1
+      },
+      {
+        "name": "Temaki de Atum",
+        "price": "84",
+        "quantity": 3
+      },
+      {
+        "name": "Hot Roll California",
+        "price": "39",
+        "quantity": 1
+      },
+      {
+        "name": "Refrigerante",
+        "price": "14",
+        "quantity": 2
+      }
+    ],
+    "deliver_driver": {
+      "driver_name": "Sakura",
+      "delivery_time": 16,
+      "distance": "3.2",
+      "average_speed": "30"
+    },
+    "payment": {
+      "subtotal": "235",
+      "delivery_fee": "7.5",
+      "service_fee": "11.75",
+      "discount": "-20",
+      "driver_tip": "25",
+      "total": "259.25"
+    },
+    "processed_at": "2025-07-29T18:38:00.990510"
+  }
+}

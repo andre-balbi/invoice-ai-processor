@@ -1,0 +1,63 @@
+{
+  "schema_fields": [
+    "status do pedido: Entrega Concluída",
+    "ID do pedido: a3f4d2c1-8b9e-4f5a-b7c3-d9e8f2a1b4c5",
+    "data/hora: 15 de março de 2024 às 20:35",
+    "restaurante: Le Bistrot Parisien",
+    "endereço do restaurante: Rua Oscar Freire, 384 - Jardins, São Paulo - SP, 01426-000",
+    "avaliações: ★ 4.8 (523 avaliações)",
+    "itens: Coq au Vin, R$ 42,90, 1; Sopa de Cebola Gratinada, R$ 18,50, 1; Vinho Tinto Taça (Malbec), R$ 22,00, 1; Café Expresso, R$ 6,90, 1",
+    "entregador: João S. (ID: drv-8k9j2m)",
+    "tempo de entrega: 28 minutos",
+    "distância: 4.2 km",
+    "valores monetários: subtotal R$ 90,30, taxa de entrega R$ 4,99, taxa de serviço R$ 5,00, desconto promocional -R$ 15,00, gorjeta R$ 13,55, total R$ 98,84"
+  ],
+  "data": {
+    "order_status": "concluido",
+    "order_id": "a3f4d2c1-8b9e-4f5a-b7c3-d9e8f2a1b4c5",
+    "date_time": "2024-03-15T20:35:00",
+    "restaurant": {
+      "name": "Le Bistrot Parisien",
+      "address": "Rua Oscar Freire, 384 - Jardins, São Paulo - SP, 01426-000",
+      "total_reviews": 523,
+      "average_rating": "4.8"
+    },
+    "items": [
+      {
+        "name": "Coq au Vin",
+        "price": "42.9",
+        "quantity": 1
+      },
+      {
+        "name": "Sopa de Cebola Gratinada",
+        "price": "18.5",
+        "quantity": 1
+      },
+      {
+        "name": "Vinho Tinto Taça (Malbec)",
+        "price": "22",
+        "quantity": 1
+      },
+      {
+        "name": "Café Expresso",
+        "price": "6.9",
+        "quantity": 1
+      }
+    ],
+    "deliver_driver": {
+      "driver_name": "João S.",
+      "delivery_time": 28,
+      "distance": "4.2",
+      "average_speed": null
+    },
+    "payment": {
+      "subtotal": "90.3",
+      "delivery_fee": "4.99",
+      "service_fee": "5",
+      "discount": "-15",
+      "driver_tip": "13.55",
+      "total": "98.84"
+    },
+    "processed_at": "2024-03-15T20:35:00"
+  }
+}
