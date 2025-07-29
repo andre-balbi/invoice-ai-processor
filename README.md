@@ -212,7 +212,6 @@ flowchart TD
       "address": "Perdizes, São Paulo - SP",
       "total_reviews": 1458,
       "average_rating": "4.7",
-      ...
     },
     "payment": {
       "subtotal": "235.00",
@@ -255,6 +254,7 @@ OPENAI_API_KEY=sk-...sua_chave_aqui...
 ## Melhorias Futuras
 
 - [ ] Suporte a múltiplos provedores de IA (Anthropic, Google)
+- [ ] Detectar e processar comentários, correções e observações escritas à mão sobre faturas digitalizadas
 - [ ] Interface web para upload de PDFs
 - [ ] API REST para integração
 - [ ] Suporte a outros tipos de faturas
