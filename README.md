@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com base nos conceitos apresentados no **Workshop 
 
 Sistema inteligente de extração e processamento de faturas de delivery (Uber Eats) usando **Pydantic AI** e **OpenAI GPT**. O projeto converte automaticamente faturas em PDF para dados estruturados em JSON, extraindo informações detalhadas sobre pedidos, restaurantes, entregadores e pagamentos. 
 
-**Pipeline automatizado**: Os PDFs são processados da pasta `data/raw/` e, após extração bem-sucedida, são **automaticamente movidos** junto com os JSONs gerados para a pasta `data/processed/`, mantendo organização e rastreabilidade completa do fluxo de dados.
+Os PDFs são processados da pasta `data/raw/` e, após extração bem-sucedida, são **automaticamente movidos** junto com os JSONs gerados para a pasta `data/processed/`, mantendo organização e rastreabilidade completa do fluxo de dados.
 
 ## 🎯 Objetivos
 
@@ -252,11 +252,8 @@ OPENAI_API_KEY=sk-...sua_chave_aqui...
 
 
 ## Melhorias Futuras
-
+- [ ] Capturar informações mais detalhadas e abrangentes para todos os tipos de faturas
 - [ ] Suporte a múltiplos provedores de IA (Anthropic, Google)
 - [ ] Detectar e processar comentários, correções e observações escritas à mão sobre faturas digitalizadas
 - [ ] Interface web para upload de PDFs
-- [ ] API REST para integração
-- [ ] Suporte a outros tipos de faturas
 - [ ] Dashboard de métricas e analytics
-

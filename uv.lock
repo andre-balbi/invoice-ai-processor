@@ -1702,6 +1702,7 @@ dependencies = [
     { name = "pdfplumber" },
     { name = "pydantic" },
     { name = "pydantic-ai" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -1710,6 +1711,7 @@ requires-dist = [
     { name = "pdfplumber", specifier = ">=0.11.7" },
     { name = "pydantic", specifier = ">=2.11.7" },
     { name = "pydantic-ai", specifier = ">=0.4.9" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]
